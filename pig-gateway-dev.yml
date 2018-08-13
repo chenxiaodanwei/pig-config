@@ -3,6 +3,7 @@ server:
 
 spring:
   zipkin:
+    base-url: 192.168.50.99:5672
     rabbitmq:
       queue: zipkin
   sleuth:
